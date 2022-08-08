@@ -24,9 +24,10 @@
     margin-left: 5px;
     margin-right: 5px;
     }
-.social:hover {
+.social:hover, .social:focus {
     color: #afb1b8;
     background-color: var(--brand-color);
+    cursor: pointer;
 }
 
 .icon-info {
@@ -52,8 +53,9 @@ body {
     text-decoration: none;
     margin-right: 93px;
 }
-.link:hover {
+.link:hover, .link:focus {
     color: var(--brand-color);
+    cursor: pointer;
 }
 .link {
     color: #212121;
@@ -67,6 +69,7 @@ body {
 }
 .mail-tel:hover {
     color: var(--brand-color);
+    cursor: pointer;
 }
 .mail-tel {
     color: #757575;
@@ -167,9 +170,10 @@ footer {
     height: 38px;
     width: 130px;
 }
-.button-portfolio:hover {
+.button-portfolio:hover, .button-portfolio:focus {
     background-color: var(--brand-color);
     color: #FFFFFF;
+    cursor: pointer;
 }
 .text-names {
     font-weight: 700;
@@ -288,7 +292,7 @@ figure {
     margin-bottom: 15px;
     border: 1px solid #EEEEEE;
 }
-.marginal:hover{
+.marginal:hover, .marginal:focus{
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
@@ -362,9 +366,10 @@ figure {
     margin-right: 15px;
     margin-top: 30px;
 }
-.companies-icon:hover {
+.companies-icon:hover, .companies-icon:focus {
     color: #2196F3;
     border: 1px solid #2196F3;
+    cursor: pointer;
 }
 .tel {
     margin-top: 9px;
@@ -384,9 +389,11 @@ figure {
 .border {
     border-top: 1px solid #ECECEC;
 }
-.social-footer:hover {
+.social-footer:hover, .soscial-footer:focus {
     color: #afb1b8;
-    background-color: var(--brand-color);}
+    background-color: var(--brand-color);
+    cursor: pointer;
+}
 
 .social-font-footer {
     fill: #FFFFFF;
